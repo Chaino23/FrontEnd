@@ -9,31 +9,40 @@
     <title>Mi Portfolio</title>
 	<link rel="icon" href="./Imagenes/fotoicono.ico">
 	<link rel="stylesheet" href="./css/style.css">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
   </head>
 
   <body>
 	
 		<div>
-			<table class="navegacion">
-				<tr>
-					<th>Navegacion
-						<ul>
-							<li>Presentacion</li>
-							<li>Educaion</li>
-							<li>Set de Skills</li>
-							<li>Experiencia laboral</li>
-						</ul>
-					</th>
-					<th>Redes Sociales
-						<ul>
-							<li id="social1"><a href="https://facebook.com" target="_blank">Facebook</a></li>
-							<li id="social2"><a href="https://linkdin.com" target="_blank">Linkdin</a></li>
-							<li id="social3"><a href="https://instagram.com" target="_blank">Instagram</a></li>
-						</ul>
-					</th>
-				  <th>Barra de busqueda de terminos</th>
-				</tr>
-			  </table>
+			<div class="btn-group">
+				<div class="dropdown">
+					<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+						Navegar
+					</button>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">Perfil</a>
+						<a class="dropdown-item" href="#">Educacion</a>
+						<a class="dropdown-item" href="#">Set de Skills</a>
+						<a class="dropdown-item" href="#">Experiencia Laboral</a>
+						<a class="dropdown-item" href="#">Contacto</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+						Redes Sociales
+					</button>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="https://facebook.com" target="_blank">Facebook</a>
+						<a class="dropdown-item" href="https://ar.linkedin.com/" target="_blank">LinkedIn</a>
+						<a class="dropdown-item" href="https://instagram.com" target="_blank">Instagram</a>
+					</div>
+				</div>
+				<!--Barra de busqueda de terminos-->
+			</div>
 		</div>
 
 			<div class="head1">
