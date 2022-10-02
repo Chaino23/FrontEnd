@@ -1,5 +1,8 @@
 .navegacion{
     background-color: aquamarine;
+    width: 100%;
+    border: 2px solid blue;
+    border-radius: 12px;
 }
 #social1{
     background-color: wheat;
@@ -10,11 +13,27 @@
 #social3{
     
 }
-.head1{border: 2px solid red;
+.head1{border: 2px solid blue;
     border-radius: 12px;
     padding: 5px;
     }
 
 img.fondo1{
     height: 200px; width: 100%;
+}
+
+img.perfil{
+    padding: 0px 0px 0px 5px;
+}
+
+img.logo{
+    position: absolute;
+        right: 0px;
+        width: auto;
+        height: 75px;
+}
+
+h2{
+    background-color: black;
+    color: white;
 }
