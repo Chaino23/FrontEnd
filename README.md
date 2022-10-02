@@ -1,3 +1,0 @@
-# FrontEnd
-Proyecto Front End de Argentina Programa
-Ni idea... tamo complicao chango...
